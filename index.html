@@ -8,20 +8,31 @@
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <title>Document</title>
   </head>
   <body>
-    <div style="width: 30%; padding: 4rem">
-      <div class="card card--primary plan--popular">
-        <header class="card__header">Card Title</header>
-        <div class="card__body">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum,
-          assumenda?
+    <blockquote class="quote">
+      <p class="quote__text">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt optio
+        officiis dolore earum error eaque perferendis laudantium sed praesentium
+        dolorum.
+      </p>
+      <footer>
+        <div class="media">
+          <div class="media__image">
+            <svg class="icon icon--primary quote__line">
+              <use xlink:href="images/sprite.svg#line"></use>
+            </svg>
+          </div>
+          <div class="media__body">
+            <h3 class="media__title quote__author">John Smith</h3>
+            <p class="quote__organization">ABC Company</p>
+          </div>
         </div>
-      </div>
-    </div>
+      </footer>
+    </blockquote>
   </body>
 </html>
